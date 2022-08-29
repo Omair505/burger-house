@@ -1,0 +1,384 @@
+/*common start*/
+*{
+	margin: 0;
+	padding: 0;
+}end*/
+/*body start*/
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #3d2514;
+}
+/*body end*/
+/*header start*/
+header{
+	height: 750px;
+	background-image: url(../images/image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+}
+.container{
+	margin: 0 auto;
+	width: 90%;
+	overflow: hidden;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #3d2514;
+}
+.header_h1{
+	margin-top: 4%;
+    margin-left: 5%;
+	float: left;
+	display: inline-block;
+	font-family: 'Bebas Neue', cursiv;
+	font-weight: 400px;
+	font-size: 20px;
+}
+.header_1 h1{
+}
+.header_content{
+	float: right;
+}
+.header_content h2{
+    margin-top: 12%;
+    margin-left: 44%;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+/*menu start*/
+.menu{
+	 margin-top: 6%;
+	 overflow: hidden;
+	 font-family: 'Bebas Neue', cursiv;
+	 font-weight: 400;
+}
+.menu ul{
+	float: right;
+    letter-spacing: 6px;
+}
+.menu ul li{
+	  float: left;
+     list-style: none;
+}
+.menu ul li a{
+	padding-right: 30px;
+	text-decoration: none;
+    word-spacing: 8px;
+    color: #3d2514;
+
+}
+.menu ul li:last-child a {
+	padding-right: 0;
+}
+.container{}
+/*header content start*/
+.header_content2{
+	margin-top: 10%;
+	overflow: hidden;
+	display: inline-block;
+	float: left;
+}
+.header_top{
+	padding: 8px;
+		border: 1px dashed #3d2514;
+}
+.header_top h2{
+}
+.header_bottom{
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 700;
+}
+.header_bottom h3{
+	font-size: 100px;	
+}
+.header_bottom h4{
+	font-size: 60px;
+}
+/*header end*/
+/*gallery start*/
+.gallery{
+}
+.container{
+	    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.img1{
+	float: left;
+	display: inline-block;
+	width: 45%;
+}
+.img1 img{
+	    margin-left: 7%;
+	display: inline-block;
+	width: 100%;
+}
+.img2{
+    margin-right: 4%;
+	float: right;
+	width: 45%;
+}
+.img3{}
+.img3 img{
+	width: 100%;
+}
+.img4{
+	    padding-top: 5%;
+}
+.img4 img{
+	width: 100%;
+}
+/*gallery end*/
+/*banner start*/
+.banner{
+	margin: 0 auto;
+		width: 60%;
+		text-align: center;
+
+}
+.container{}
+.banner_content{
+	text-align: center;
+}
+.b_h1{
+	padding: 1%;
+	display: inline-block;
+	background-color: #ffc045;
+	text-transform: uppercase;
+}
+.b_h2{
+	padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 60px;
+	text-transform: uppercase;
+}
+.b_p{
+   line-height: 25px;
+}
+/*banner end*/
+
+/*gallery1 start*/
+.gallery1{
+		width: 90%;
+	margin: 0 auto;
+}
+.container1{
+	display: inline-block;	
+	width: 30%;
+
+}
+.g1{
+	margin-top: 2%;
+	width: 33%;
+}
+.g1_img{
+}
+.g1_img img{
+width: 100%;
+
+}
+.g1_h1{
+	padding: 10% 0% 2% 26%;
+	font-family: 'Bebas Neue', cursiv;
+	display: inline-block;
+	font-size: 26px;
+    letter-spacing: 2px;
+}
+.g1_p{
+        padding: 0% 22%;
+        text-align: center;
+    display: inline-block;
+}
+.g1_h2{
+	    margin-left: 20%;
+	margin-top: 5%;
+	padding: 5% 10%;
+	color: #ffffff;
+	font-family: 'Alfa Slab One', cursive;
+	background-color: #bf2222;
+	display: inline-block;
+}
+/*gallery1 end*/
+/*banner2 start*/
+.banner2{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+	background-color: #ffffff;
+
+}
+.container3{
+	    margin: 12%;
+    overflow: hidden;
+    box-shadow: 6px 15px 20px 0px #b4b4b4;
+
+
+}
+.b2_content{
+	    margin-top: 2%;
+width: 25%;
+float: left;
+}
+.b2_h1{  
+        margin: 10% 10% 5% 10%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursiv;
+}
+.b2_h2{
+    margin: 2% 12% 15% 10%;
+    font-size: 50px;
+    text-transform: uppercase;
+    line-height: 55px;
+    font-family: 'Alfa Slab One', cursive;
+}
+.b2_p{
+	    padding-left: 25px;	
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+
+}
+.bb{
+	    padding-top: 80%;
+    padding-left: 6px
+
+}
+.b2_img{
+	    margin: 5% 3% 12% 15%;
+    width: 55%;
+    float: right;
+
+}
+.b2_img img{
+width: 100%;
+}
+/*banner2 end*/
+/*reservation start*/
+.container4{
+	 background-image: url(../images/b10.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 750px;
+    width: 100%;
+
+}
+.reservation{
+	    display: inline-block;
+    margin-top: 6%;
+    font-size: 22px;
+}
+.r_h3{
+	font-family: 'Bebas Neue', cursiv;
+	    text-transform: uppercase;
+    padding-bottom: 1%;
+
+}
+.r_h1{
+	font-size: 48px;
+	font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
+
+}
+.form{
+	    padding-top: 4%;
+}
+.form input {
+    margin-right: 25px;
+    margin-bottom: 15px;
+    padding: 2.2% 21% 2.2% 1%;
+    font-family: bebasneue-regular;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.form button {
+    border: none;
+    border-radius: 4px;
+    background-color: #bf2222;
+    }
+.form button a {
+    padding: 23px 145px 22px 137px;
+    font-family: alfaslabone-regular;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    }
+/*reservationb end*/ 
+
+  
+/*footer start*/
+footer{
+	    padding-bottom: 2%;
+
+}
+.container5{
+	margin: 0 auto;
+	 background-image: url(../images/b12.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 520px;
+    color: white;
+    width: 90%;
+
+}
+.c_l{	
+	margin: 5% 4%;
+   float: left;
+   width: 30%;
+}
+
+.cl_img{
+
+}
+.cl_p{
+    padding-top: 10%;
+    padding-left: 8%;
+    padding-right: 8%
+    font-family: montserrat-regular;
+    line-height: 1.7
+}
+.cl_h2{
+	padding-left: 8%;
+  padding-top: 28%;
+    font-size: 16px;
+    font-family: bebasneue-regular;
+    word-spacing: 2px;
+}
+.c_r{
+	    margin-top: 18%;
+	float: right;
+	width: 30%;
+
+}
+.f_icon{
+	float: left;
+	width: 20%;
+
+}
+.icon1{
+
+}
+.icon1 img{
+
+}
+.icon2{
+	    padding-top: 24%;
+}
+.icon1 img{
+}
+.cr_h2{
+	 padding-bottom: 6%;
+}
+.cr_h3{
+}
+.cr_img{
+	    padding-top: 20%;
+    padding-left: 12%;
+}
+
+/*footer end*/
